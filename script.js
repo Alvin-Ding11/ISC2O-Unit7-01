@@ -1,6 +1,6 @@
 let number = 0
 let guess = 0
-// variables
+// variables. I cannot figure out why the lilnter said guess is never used so I just left it
 number = Math.random() * 6 + 1
 number = parseInt(number)
 // The random number generater, math.random makes sure its not as decimals, the little equation in the back sets the range and parseint turns it into an integer
@@ -9,7 +9,7 @@ document.getElementById('button').addEventListener('click', random)
 function random () {
   let guess = document.getElementById('input').value
   guess = parseInt(guess)
-    // gets the value from the inputbox and turns it into a number
+  // gets the value from the inputbox and turns it into a number
 
   if (guess === number) {
     document.getElementById('paratext').innerHTML = 'You got it Correct!'
