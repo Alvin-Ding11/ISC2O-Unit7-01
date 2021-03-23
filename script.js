@@ -1,6 +1,5 @@
 let randomNumber = 0
-let userguess = 0
-
+let userGuess = 0
 
 randomNumber = Math.random() * 6 + 1
 randomNumber = parseInt(randomNumber)
@@ -10,11 +9,10 @@ document.getElementById('button').addEventListener('click', random)
 function random () {
   // gets the values from the number in the text box
   let userGuess = document.getElementById('input').value
-  userguess = parseInt(userGuess)
+  userGuess = parseInt(userGuess)
 
-  if (userguess === randomNumber) {
+  if (userGuess === randomNumber) {
     document.getElementById('paratext').innerHTML = 'You got it Correct!'
-
   } else {
     document.getElementById('paratext').innerHTML = 'Incorrect! Try Again'
   }
