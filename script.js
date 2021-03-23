@@ -6,7 +6,7 @@ number = parseInt(number)
 // The random number generater, math.random makes sure its not as decimals, the little equation in the back sets the range and parseint turns it into an integer
 document.getElementById('button').addEventListener('click', random)
 // function once the button is pressed
-function random() {
+function random(){
   let guess = document.getElementById('input').value
   guess = parseInt(guess)
 // gets the value from the inputbox and turns it into a number
