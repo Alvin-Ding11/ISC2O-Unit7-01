@@ -1,6 +1,6 @@
 let number = 0
 let guess = 0
-// variables. I cannot figure out why the lilnter said guess is never used so I just left it
+// variables. I cannot figure out why the linter said guess is never used so I just left it
 number = Math.random() * 6 + 1
 number = parseInt(number)
 // The random number generater, math.random makes sure its not as decimals, the little equation in the back sets the range and parseint turns it into an integer
