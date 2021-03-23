@@ -9,9 +9,8 @@ document.getElementById('button').addEventListener('click', random)
 function random () {
   let guess = document.getElementById('input').value
   guess = parseInt(guess)
-// gets the value from the inputbox and turns it into a number
-  
-  
+    // gets the value from the inputbox and turns it into a number
+
   if (guess === number) {
     document.getElementById('paratext').innerHTML = 'You got it Correct!'
   } else {
