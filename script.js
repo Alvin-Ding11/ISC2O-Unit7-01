@@ -1,8 +1,8 @@
-randomNumber = Math.random() * 6 + 1
-randomNumber = parseInt(randomNumber)
-
 let number = 0
 let guess = 0
+
+number = Math.random() * 6 + 1
+number = parseInt(number)
 
 document.getElementById('button').addEventListener('click', random)
 
